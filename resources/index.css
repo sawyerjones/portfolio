@@ -1,0 +1,67 @@
+/*nav bar*/
+nav {
+	display: flex;
+}
+
+nav h1 {
+	font-size: 6vw;
+	margin: 2rem 0;
+}
+nav ul li {
+	list-style-type: none;
+	width: 7%;
+	min-width: 5.26rem;
+	display: inline;
+	margin: auto 1vw;
+	font-size: 1.5vw;
+}
+
+#nav-right {
+	position: absolute;
+	right: 7.5%;
+}
+
+/*skills*/
+.skills-container {
+	display: flex;
+	margin: .5rem 0 1rem 25%;
+	width: 75%;
+}
+
+.skills-container h2 {
+	margin-right: 3%;
+	font-size: 3.2vw;
+}
+
+.skills {
+	border: 1px solid black;
+	border-radius: .5rem;
+	width: 30vw;
+	margin-right: 1vw;
+}
+
+.skills ul {
+	padding: 1vw;
+}
+
+.skills img {
+	height: 4vw;
+}
+
+.skills li {
+	display: inline;
+	list-style-type: none;
+	font-size: 1.5vw;
+	margin: 0 .5vw 1vw .5vw;
+	line-height: 4vw;
+}
+
+.hide {
+	display: none;
+}
+
+.skills-description {
+	border: 1px solid black;
+	border-radius: .5rem;
+	width: 33%;
+}
