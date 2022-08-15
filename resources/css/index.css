@@ -24,14 +24,16 @@ nav ul li {
 /*skills*/
 .skills-container {
 	display: flex;
-	margin: 1rem 0 1rem 25%;
+	margin: 1rem 0 1rem 15%;
 	width: 75%;
+	overflow: visible;
 }
 
 .learning-container {
 	display: flex;
 	margin: .5rem 0 1rem 35%;
 	width: 65%;
+	overflow: visible;
 }
 
 .skills-container h2,
@@ -80,6 +82,10 @@ nav ul li {
 	display: none;
 }
 
+.show {
+	animation: fadeIn 5s;
+}
+
 .img-active {
 	border: 3px solid  rgb(150, 210, 148);
 	padding: 2px;
@@ -91,7 +97,12 @@ nav ul li {
 	margin: auto 0;
 }
 
+.skills-description img {
+	height: 15vw;
+	width: 15vw;
+}
+
 .skills-description p {
 	padding: 1vw .5vw;
 	line-height: 2vw;
-}
+	text-align: center;
