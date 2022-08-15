@@ -1,0 +1,16 @@
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+a:visited {
+	color: rgb(0, 0, 0);
+}
+
+a:hover {
+	color: rgb(150, 210, 148);
+	transition-property: color;
+	transition-duration: 1s;
+	transition-delay: 200ms;
+}
+

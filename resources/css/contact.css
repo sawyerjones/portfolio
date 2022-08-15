@@ -1,0 +1,27 @@
+nav {
+	display: flex;
+}
+
+nav h1 {
+	font-size: 6vw;
+	margin: 2rem 0;
+}
+nav ul li {
+	list-style-type: none;
+	width: 20%;
+	min-width: 5.26rem;
+	margin: auto 1vw;
+	font-size: 5vw;
+	line-height: 10vw;
+}
+
+#nav-right {
+	position: absolute;
+	right: 15%;
+	top: 10%;
+	text-align: center;
+}
+
+#active a {
+	color: rgb(150, 210, 148);
+}
