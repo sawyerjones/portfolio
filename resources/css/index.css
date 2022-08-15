@@ -1,0 +1,97 @@
+/*nav bar*/
+nav {
+	display: flex;
+}
+
+nav h1 {
+	font-size: 6vw;
+	margin: 2rem 0;
+}
+nav ul li {
+	list-style-type: none;
+	width: 7%;
+	min-width: 5.26rem;
+	display: inline;
+	margin: auto 1vw;
+	font-size: 1.5vw;
+}
+
+#nav-right {
+	position: absolute;
+	right: 7.5%;
+}
+
+/*skills*/
+.skills-container {
+	display: flex;
+	margin: 1rem 0 1rem 25%;
+	width: 75%;
+}
+
+.learning-container {
+	display: flex;
+	margin: .5rem 0 1rem 35%;
+	width: 65%;
+}
+
+.skills-container h2,
+.learning-container h2 {
+	font-size: 3.2vw;
+	width: 15vw;
+}
+
+.skills,
+.learning {
+	width: 75%;
+}
+
+.skills ul,
+.learning ul {
+	margin: 1vw;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.skills li,
+.learning li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 1.5vw;
+	margin: 0 .5vw 1vw .5vw;
+	height: 10vw;
+	width: 10vw;
+}
+
+.lang-container {
+	height: 10vw;
+	width: 10vw;
+	display: inline-flex;
+	box-sizing: border-box;
+}
+
+.skills img,
+.learning img {
+	height: 100%;
+	width: 100%;
+
+}
+/*controls the hidden and shown properties for the skills*/
+.hide {
+	display: none;
+}
+
+.img-active {
+	border: 3px solid  rgb(150, 210, 148);
+	padding: 2px;
+}
+
+/*paragraph of information*/
+.skills-description {
+	width: 33%;
+	margin: auto 0;
+}
+
+.skills-description p {
+	padding: 1vw .5vw;
+	line-height: 2vw;
+}
