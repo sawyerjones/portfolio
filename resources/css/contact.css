@@ -25,3 +25,16 @@ nav ul li {
 #active a {
 	color: rgb(150, 210, 148);
 }
+
+.form-container {
+	width: 50%;
+}
+
+.form-container a {
+	color: rgb(150, 210, 148);
+}
+
+.form-container p {
+	text-align: center;
+	font-size: 3vw;
+}

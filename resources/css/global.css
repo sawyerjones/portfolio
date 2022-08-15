@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Nunito&display=swap');
+
+h1 {
+	font-family: 'Mukta';
+}
+
+ul, 
+h2,
+figcaption,
+p {
+	font-family: 'Nunito';
+}
+
 a {
 	text-decoration: none;
 	color: rgb(0, 0, 0);
